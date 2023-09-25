@@ -1,0 +1,26 @@
+php artisan list
+laravel new project-name
+
+composer create-project --prefer-dist laravel/laravel ProjetcName
+
+composer dump-autoload
+php artisan serve --host=xxxxxxxx --port=xxxx
+
+php artisan make:controller ControllerName
+php artisan make:model ModelName
+php artisan make:view ViewName
+php artisan make:migration --table='table' 'description_of_migration'
+
+php artisan migrate
+
+-> php artisan migrate:rollback  #Az function DOWN taarif shode dar migration estefade mikonad
+
+php artisan migrate:reset       #kamel migration ra barmigardanad
+
+php artisan config:cache        #Speed up your application for production by combining all your config options into a single file that loads quickly.
+
+php artisan route:cache         #Speed up your application for production caching all your application’s routes.
+
+php artisan route:clear         #Clear the cached version of your routes — use this on local deployments if you have cached routes. Re-run the cache command above on production to clear and re-cache routes.
+
+php artisan config:clear        #Clear your cached config — use this on local deployments if you have cached config. Re-run the cache command above on production to clear and re-cache config.

@@ -1,6 +1,6 @@
 php artisan list
 laravel new project-name
-
+composer require phpoffice/phpspreadsheet  #adding phpspreadsheet for excel
 composer create-project --prefer-dist laravel/laravel ProjetcName
 
 composer dump-autoload
